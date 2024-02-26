@@ -1,9 +1,9 @@
-Le but de ce projet récupérer les informations du site "http://books.toscrape.com/"
+Le but de ce projet récupérer les informations du site "http://books.toscrape.com/" et du site "https://store.fifa.com/fr-fr/football-shirts/"
 à l'aide python et de ses bibliothèques (soit selenium ou beautifulsoup) puis y accéder avec MongoDb.
 Dans mon cas j'ai utilisé selenium
 
 Dans les grandes lignes le projet consistait à 
--récupérer les informations en se rendant sur le site   "http://books.toscrape.com"
+-récupérer les informations en se rendant sur le site   "http://books.toscrape.com" et "https://store.fifa.com/fr-fr/football-shirts/"
 et repérant les balises Html nécessaires grâce au script "scrap.py":une fois ce script lancer on obtient un fichier".csv"contenant les informations récupérer.
 -ouvrir ou exporter les informations récupérer dans sa base de données MongoDb: avec le script"main.py"
 
